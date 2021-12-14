@@ -1,0 +1,24 @@
+{
+  "name": "bankrot-fedresurs",
+  "version": "1.0.0",
+  "description": "web data extraction from Unified Federal Register of Bankruptcy Information",
+  "main": "crawler.mjs",
+  "scripts": {
+    "start": "node crawler.mjs",
+    "test": "node test.mjs"
+  },
+  "keywords": [
+    "web scraping",
+    "web data extraction",
+    "web harvesting",
+    "data scraping",
+    "extracting data from websites",
+    "https://bankrot.fedresurs.ru/"
+  ],
+  "author": "Yaroslav Plias",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^3.2.2",
+    "axios": "^0.24.0"
+  }
+}
